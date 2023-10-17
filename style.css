@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Roboto', sans-serif;
+}
+
+.container-lateral{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 420px;
+    background-color: #1d2a38;
+    position: relative;
+    filter:drop-shadow(rgba(0, 0, 0, 0.37) 3px 0px 5px);
+}
+
+.nome{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cargo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: 50px;
+    
+}
+
+i{
+    font-size: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.social-media i:hover{
+   font-size: 30px;
+   
+}
+
+nav ul{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+
+nav ul li{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font
+}
+
+nav ul a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: 0.2s;
+}
+
+.foto{
+    border-radius: 500px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foto img{
+    border-radius: 500px;
+    width: 150px;
+    height: 150px;
+}
+
+#sobre .conteudo{
+    text-align: justify;
+}
+
+#habilidades .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-card{
+    background-color: #c4f0f25e;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+   
+}
+
+.skill-info{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #1fa6a6;
+
+}
+
+.skill-card .icon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 80px;
+}
+
+.skill-bar-bg{
+    background-color: #64613b25;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.skill-bar{
+    width: 0%;
+    height: 100%;
+    background-color: #1fa6a6;
+    border-radius: 5px;
+}
+
+.conteudo{
+    margin-bottom: 50px;
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
+
+.item-formacao{
+    margin-bottom: 30px;
+}
+
+.item-formacao h1{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.item-formacao h2{
+    font-size: 16px;
+}
+
+#conteudo-portfolio{
+    display: flex;
+    position: relative;
+    overflow: scroll;
+    gap: 20px;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#conteudo-portfolio::-webkit-scrollbar {
+    display: none;
+  }
+
+.portfolio-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #c4f0f25e;
+    height: 290px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.portfolio-card h1{
+   font-size: 18px;
+   height: 22px;
+}
+
+.portfolio-card img{
+    border-radius: 20px;
+    width: 300px;
+}
+
+.fa-magnifying-glass{
+font-size: 15px;
+}
+
+.arrows{
+    display: flex;
+    position: relative;
+    top: 180px;
+}
+
+.arrow {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    filter: opacity(0);
+    transition: 0.2s;
+}
+
+.right {
+    left: 85%;
+}
+
+.link {
+    display: block;
+    position: relative;
+    right: -100px;
+    bottom: -20px;
+    color: #c2c2c2;
+    text-decoration: none;
+    background-color: #1d2a38;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+main{
+
+    background-color: white;
+    padding: 20px;
+    color: #1d2a38;
+    max-width: 900px;
+
+}
+
+body{
+    color: #c4f0f2;
+    background-color: #1d2a38 ;
+}
+
+a{
+    color: #c4f0f2;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    border: none;
+    border-bottom: solid 1px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.botao{
+    position: relative;
+    margin: 0 auto;
+    background-color: #1d2a38;
+    color: #c2c2c2;
+    margin: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 750px) {
+
+.container-lateral{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    background-color: #1d2a38;
+    position: fixed;
+    flex: 0;
+    filter:drop-shadow(rgba(0, 0, 0, 0.37) 3px 0px 5px);
+    z-index: 999;
+}
+
+nav ul{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 55px;
+    list-style-type: none;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+
+
+
+nav ul a:hover{
+    letter-spacing: 5px;
+}
+
+.foto{
+
+    width: 180px;
+    height: 180px;
+  
+}
+
+
+.foto img{
+    width: 180px;
+    height: 180px;
+}
+
+
+.skill-card{
+  
+    width: 400px;
+   
+}
+
+
+
+.skill-bar-bg{
+    width: 300px;
+}
+
+.right{
+    left: 92%;
+}
+
+
+main{
+    margin-left: 300px;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+}
